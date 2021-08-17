@@ -1,0 +1,17 @@
+<%= grid(@grid) do |g|
+  g.column name: "ID" do |a|
+    a.id
+  end
+
+  g.column  name: "Title" do |a|
+    a.title
+  end
+
+  g.column name: "Body" do |a|
+    a.body
+  end
+
+  g.column name: "Created" do |a|
+    a.created_at
+  end
+end -%>
