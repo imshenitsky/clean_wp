@@ -1,3 +1,6 @@
 .articles
   %h1= 'Articles'
+  = link_to 'Dont care', '#', class: 'open-dialog'
+  %br
+  = link_to 'Dont care - 2', '#', class: 'open-dialog-2'
   .grid= render 'articles/grid'
