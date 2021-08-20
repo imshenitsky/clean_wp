@@ -1,0 +1,57 @@
+table.memseed-grid {
+  margin-top: 8px;
+
+  tr.memseed-header {
+    background-color: #f0f0f0;
+  }
+
+
+  .icon-make-new-revision {
+    color: #333333;
+  }
+
+  .default_changes_txt {
+    color: #B4A79B;
+    font-style: italic;
+  }
+
+  td.actions {
+    a.edit:before {
+      content: "\f044";
+      font-family: "Font Awesome 5 Free";
+      display: inline-block;
+      font-weight: 600;
+    }
+  }
+  td.deploy-status {
+    width: 30px;
+  }
+  th {
+    input[type=text] {
+      width: 100%;
+      max-width: 120px;
+    }
+  }
+  th.range-input {
+    input[type=text] { width: 40px; }
+  }
+}
+
+.articles-grid {
+  tr.deactivated {
+    background-color: #c07777 !important;
+    color: #f8f8f8;
+  }
+  tr.accepted {
+    background-color: #5FA7DD;
+    color: white;
+
+    a {
+      color: #F8F8F8;
+      text-decoration: underline;
+    }
+  }
+  tr.deployed {
+    background-color: #dcf3fa;
+  }
+}
