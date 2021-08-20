@@ -10,3 +10,9 @@ Rails.start()
 Turbolinks.start()
 
 import './articles'
+
+import 'jquery'
+import 'jquery_ujs'
+import 'jquery-ui'
+import 'wice_grid'
+import 'jquery.ui.datepicker'

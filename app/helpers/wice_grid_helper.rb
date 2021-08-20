@@ -1,6 +1,6 @@
 module WiceGridHelper
   def wice_opts
-    { show_filters:              :when_filtered,
+    { show_filters:              :always,
       hide_csv_button:           true,
       html:                      { class: 'memseed-grid articles-grid' },
       header_tr_html:            { class: 'memseed-header' },
