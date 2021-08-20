@@ -1,10 +1,26 @@
-<%= grid(@grid) do |g|
+<%= grid(@grid, wice_opts) do |g|
+  g.row_attributes do |v|
+    if v.id == 4
+      { class: 'accepted' }
+      elsif v.id == 5
+        { class: 'deployed' }
+    elsif v.id == 2
+      { class: 'deactivated' }
+      end
+  end
+
   g.column name: "ID" do |a|
     a.id
   end
 
-  g.column  name: "Title" do |a|
-    a.title
+  g.column  name: "Title", attribute: 'title', filter: true do |a|
+    link_to a.title, a
+  end
+
+  g.column name: 'Author',
+           attribute: 'author',
+           custom_filter: authors_list do |v|
+    v.author
   end
 
   g.column name: "Body" do |a|
