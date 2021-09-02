@@ -9,4 +9,6 @@ import Turbolinks from "turbolinks"
 Rails.start()
 Turbolinks.start()
 
+require.context('../images', true)
+
 import './articles'
