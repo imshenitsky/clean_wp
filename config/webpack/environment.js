@@ -5,8 +5,9 @@ const webpack = require('webpack')
 
 environment.plugins.append('Provide',
     new webpack.ProvidePlugin({
-        $: 'jquery',
-        jQuery: 'jquery'
+        $:      'jquery',
+        jQuery: 'jquery',
+        Popper: ['popper.js', 'default'] // Dependency of Bootstrap
     })
 )
 
