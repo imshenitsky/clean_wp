@@ -12,8 +12,6 @@ Turbolinks.start()
 
 require.context('../images', true)
 
-require("wice_grid")
-
 // Import styling manifest file
 import 'styles/application'
 
@@ -21,4 +19,4 @@ import 'styles/application'
 import './bootstrap'
 
 // Import coffeescript pack file
-import './test_alert'
+import './wice_grid'
