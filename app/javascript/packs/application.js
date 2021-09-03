@@ -14,8 +14,5 @@ require.context('../images', true)
 // Import styling manifest file
 import 'styles/application'
 
-// Import articles pack file
-import './articles'
-
 // Import bootstrap js
 import './bootstrap'
