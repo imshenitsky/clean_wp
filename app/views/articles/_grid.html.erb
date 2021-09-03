@@ -27,7 +27,7 @@
     a.body
   end
 
-  g.column name: "Created" do |a|
-    a.created_at
+  g.column name: "Created", attribute: 'created_at', filter_type: :bootstrap_datepicker do |a|
+    a.created_at.to_s(:db)
   end
 end -%>

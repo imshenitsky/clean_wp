@@ -6,6 +6,7 @@
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import "@fortawesome/fontawesome-free/css/all"
+import "bootstrap-datepicker"
 
 Rails.start()
 Turbolinks.start()
