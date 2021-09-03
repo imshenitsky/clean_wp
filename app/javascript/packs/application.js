@@ -19,3 +19,6 @@ import './articles'
 
 // Import bootstrap js
 import './bootstrap'
+
+// Import coffeescript pack file
+import './test_alert'
