@@ -5,6 +5,7 @@
 
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
+import "@fortawesome/fontawesome-free/css/all"
 
 Rails.start()
 Turbolinks.start()
@@ -18,3 +19,6 @@ import 'styles/application'
 
 // Import bootstrap js
 import './bootstrap'
+
+// Import coffeescript pack file
+import './test_alert'
