@@ -16,3 +16,6 @@ import 'styles/application'
 
 // Import bootstrap js
 import './bootstrap'
+
+// Import coffeescript pack file
+import './test_alert'
