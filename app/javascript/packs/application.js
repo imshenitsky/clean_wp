@@ -19,4 +19,4 @@ import 'styles/application'
 import './bootstrap'
 
 // Import coffeescript pack file
-import './test_alert'
+import './wice_grid'

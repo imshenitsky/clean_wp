@@ -7,20 +7,16 @@
   = link_to 'Dont care', '#', class: 'open-dialog'
   %br
   = link_to 'Dont care - 2', '#', class: 'open-dialog-2'
+  %br
+  %br
+  = render 'articles/dropdown'
 
-.container.pt-5
-  %h1 Bootstrap
-  %p This is some text.
+  #demo.collapse
+    %h5.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit
+  %button.btn.btn-primary(data-bs-target="#demo" data-bs-toggle="collapse" type="button")
+    Simple collapse
 
-#demo.collapse
-  %h5.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit
-%button.btn.btn-primary(data-bs-target="#demo" data-bs-toggle="collapse" type="button")
-  Simple collapse
-
-%button.btn.btn-primary.coffee Try coffeescript
-
-%p.demo Alert result will be here
-
+  .grid= render 'articles/grid'
 %hr
 
 %h2= 'FontAwesome'
