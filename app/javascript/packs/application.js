@@ -11,6 +11,8 @@ Turbolinks.start()
 
 require.context('../images', true)
 
+require("wice_grid")
+
 // Import styling manifest file
 import 'styles/application'
 
