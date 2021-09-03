@@ -18,8 +18,7 @@ import 'styles/application'
 // Import bootstrap js
 import './bootstrap'
 
-// Import coffeescript pack file
-import './test_alert'
-
 // Import ES6 pack file
 import './test_promise'
+
+import './wice_grid'
